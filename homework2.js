@@ -1,6 +1,6 @@
-//Nombre y Apellido:
-//Curso: 
-//Grupo
+//Nombre y Apellido: brisa scomazzon
+//Curso: 6to
+//Grupo:604
 //Taller de Programacion III
 //Departamento de Informatica - EESTn°1 - Raul Scalabrini Ortiz
 
@@ -13,7 +13,18 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  
+  if (x > y ){
+  return x;  
+  } else
+    if (y > x){
+      return y;
+        } else
+          if(x === y) {
+            return x;  return y;
+          }
 
+ 
 }
 
 function saludo(idioma) {
