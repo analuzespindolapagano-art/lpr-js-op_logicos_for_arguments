@@ -34,7 +34,18 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-
+if (idioma === "aleman") {
+    return "guten tag!";
+  } else 
+    if(idioma === "mandarin"){
+      return "ni hao!";
+    } else 
+      if (idioma === "ingles"){
+        return "hello!";
+  } else 
+    if (idioma === "undefined"){
+      return "hola!";
+    }
 }
 
 function esDiezOCinco(numero) {
